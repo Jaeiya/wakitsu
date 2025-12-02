@@ -1,6 +1,12 @@
+# Project Deprecation Notice
+
+This project was a proof of concept to see if using JavaScript for a TUI application was applicable... and it turns out it worked very well. However I've since moved onto a lower level programming language (Golang) and decided to re-write this application. That being said, the evolution of this project will continue at the link below.
+
+Check it out: https://github.com/jaeiya/koshime
+
 # About
 
-Wakitsu is a CLI application designed to find an anime episode on disk, at the working directory. It will try to discover any FanSubbed file names. If found, it will update your [Kitsu] watch list and move the file to a "watched" folder. Not all FanSub file names are supported, since there is unfortunately no standardized naming practice among the groups.
+Wakitsu is a TUI application designed to find an anime episode on disk, at the working directory. It will try to discover any FanSubbed file names. If found, it will update your [Kitsu] watch list and move the file to a "watched" folder. Not all FanSub file names are supported, since there is unfortunately no standardized naming practice among the groups.
 
 You can also use the manual flag `-m` or `-manual` to update an anime without needing a file on disk, but this is not the standard way to use the program.
 
